@@ -194,7 +194,7 @@ class Navbar(models.Model):
     )
 
     panels = [
-        ImageChooserPanel('logo'),
+        FieldPanel('logo'),
         FieldPanel('logo_redirect_link'),
         FieldPanel('logo_width'),
         FieldPanel('logo_height'),
@@ -342,7 +342,7 @@ class GatewayIcon(models.Model):
     )
 
     panels = [
-        ImageChooserPanel('icon'),
+        FieldPanel('icon'),
         FieldPanel('background_color'),
     ]
 
@@ -616,7 +616,7 @@ class HomePage(Page):
 
     content_panels = Page.content_panels + [
         MultiFieldPanel([
-            ImageChooserPanel('image'),
+            FieldPanel('image'),
             FieldPanel('hero_text', classname="full"),
             MultiFieldPanel([
                 FieldPanel('hero_cta'),
@@ -625,31 +625,31 @@ class HomePage(Page):
         ], heading="Hero section"),
         FieldPanel('body'),
         MultiFieldPanel([
-            ImageChooserPanel('site_logo'),
+            FieldPanel('site_logo'),
             FieldPanel('features_text'),
             MultiFieldPanel([
-                ImageChooserPanel('feature_logo_1'),
+                FieldPanel('feature_logo_1'),
                 FieldPanel('feature_1_title'),
                 FieldPanel('feature_1_text'),
             ]),
             MultiFieldPanel([
-                ImageChooserPanel('feature_logo_2'),
+                FieldPanel('feature_logo_2'),
                 FieldPanel('feature_2_title'),
                 FieldPanel('feature_2_text'),
             ]),
             MultiFieldPanel([
-                ImageChooserPanel('feature_logo_3'),
+                FieldPanel('feature_logo_3'),
                 FieldPanel('feature_3_title'),
                 FieldPanel('feature_3_text'),
             ]),
             MultiFieldPanel([
-                ImageChooserPanel('feature_logo_4'),
+                FieldPanel('feature_logo_4'),
                 FieldPanel('feature_4_title'),
                 FieldPanel('feature_4_text'),
             ])
         ], heading="Feature section", classname="collapsible"),
         FieldPanel('custom_body_message'),
-        ImageChooserPanel('banner_image')
+        FieldPanel('banner_image')
     ]
 
     customization_panels = [
@@ -873,7 +873,7 @@ class CybergatewayHomePage(Page):
 
     content_panels = Page.content_panels + [
         MultiFieldPanel([
-            ImageChooserPanel('site_logo'),
+            FieldPanel('site_logo'),
             FieldPanel('site_link'),
             FieldPanel('site_text'),
             FieldPanel('site_header'),

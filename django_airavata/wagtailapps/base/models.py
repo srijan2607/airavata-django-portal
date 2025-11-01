@@ -64,7 +64,7 @@ class NavExtra(models.Model):
         ('nav', Nav(max_num=1)),
     ])
     panels = [
-        StreamFieldPanel('nav'),
+        FieldPanel('nav'),
     ]
 
     def __str__(self):
@@ -89,7 +89,7 @@ class CustomCss(models.Model):
         default="")
 
     panels = [
-        StreamFieldPanel('css'),
+        FieldPanel('css'),
     ]
 
     def __str__(self):
@@ -114,7 +114,7 @@ class FooterText(models.Model):
         null=True)
 
     panels = [
-        StreamFieldPanel('footer'),
+        FieldPanel('footer'),
     ]
 
     def __str__(self):
@@ -624,7 +624,7 @@ class HomePage(Page):
                 PageChooserPanel('hero_cta_link'),
             ])
         ], heading="Hero section"),
-        StreamFieldPanel('body'),
+        FieldPanel('body'),
         MultiFieldPanel([
             ImageChooserPanel('site_logo'),
             FieldPanel('features_text'),
@@ -677,7 +677,7 @@ class Row(models.Model):
     )
 
     panels = [
-        StreamFieldPanel('body'),
+        FieldPanel('body'),
     ]
 
     class Meta:
@@ -696,8 +696,8 @@ class BootstrapRow(Row):
     )
 
     panels = [
-        StreamFieldPanel('container'),
-        StreamFieldPanel('body'),
+        FieldPanel('container'),
+        FieldPanel('body'),
     ]
 
     class Meta:
@@ -886,8 +886,8 @@ class CybergatewayHomePage(Page):
             FieldPanel('site_link_text3'),
         ], heading="Navbar Section"),
         InlinePanel("row", label="row"),
-        StreamFieldPanel('contact'),
-        StreamFieldPanel('footer'),
+        FieldPanel('contact'),
+        FieldPanel('footer'),
     ]
 
     customization_panels = [

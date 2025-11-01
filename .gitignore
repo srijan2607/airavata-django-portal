@@ -17,3 +17,7 @@ package-lock.json
 site/
 .tox/
 yarn-error.log
+-e 
+# Environment files
+*.env
+*.env.*

@@ -20,7 +20,7 @@ setup(
     long_description=read('README.md'),
     license='Apache License 2.0',
     packages=find_packages(),
-    python_requires='>=3.12',
+    python_requires='>=3.11',
     install_requires=[
             'Django>=4.2,<4.3',
             'djangorestframework',

@@ -1,5 +1,19 @@
 from django.apps import AppConfig
-from pkg_resources import iter_entry_points
+try:
+    # Try importlib.metadata first (Python 3.10+)
+    from importlib.metadata import entry_points
+    def iter_entry_points(group):
+        """Wrapper for compatibility with pkg_resources API"""
+        eps = entry_points()
+        if hasattr(eps, 'select'):
+            # Python 3.10+
+            return eps.select(group=group)
+        else:
+            # Python 3.9
+            return eps.get(group, [])
+except ImportError:
+    # Fallback to pkg_resources for older Python versions
+    from pkg_resources import iter_entry_points
 
 
 class ApiConfig(AppConfig):

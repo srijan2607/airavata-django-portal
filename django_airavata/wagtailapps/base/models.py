@@ -13,7 +13,6 @@ from wagtail.admin.panels import (
     PageChooserPanel,
     TabbedInterface
 )
-from wagtail.admin.panels import ImageChooserPanel
 from wagtail.fields import RichTextField, StreamField
 from wagtail.models import Orderable, Page
 from wagtail.snippets.models import register_snippet

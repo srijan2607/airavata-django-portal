@@ -5,7 +5,7 @@ import os
 from django.db import models
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
-from wagtail.admin.edit_handlers import (
+from wagtail import (
     FieldPanel,
     InlinePanel,
     MultiFieldPanel,

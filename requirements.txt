@@ -1,20 +1,30 @@
 # Pin these dependencies
-# Updated for Python 3.12+ compatibility
+# Updated for Python 3.12+ compatibility with Django 4.2 LTS
+
+# Core Django and REST framework
 Django==4.2.25
-requests==2.27.1
-requests-oauthlib==1.4.0
-thrift==0.21.0
-thrift_connector==0.24
 djangorestframework==3.16.1
 django-webpack-loader==3.2.0
+
+# Requests - using version compatible with airavata-django-portal-sdk
+requests==2.27.1
+requests-oauthlib==1.4.0
+
+# Thrift dependencies
+thrift==0.21.0
+thrift_connector==0.24
+
+# Utilities
 logging-formatter-anticrlf==1.2
 zipstream-new==1.1.8
 
+# Wagtail CMS and extensions
 wagtail==6.4.2
 wagtailfontawesome==1.2.1
 wagtail-draftail-anchors==0.2.0
 wagtailcodeblock==1.17.1.0
 
+# Jupyter and papermill
 jupyter==1.0.0
 papermill==2.6.0
 
@@ -23,6 +33,7 @@ google-api-python-client==2.165.0
 grpcio-tools==1.76.0
 grpcio==1.76.0
 
+# Airavata specific packages
 airavata-django-portal-sdk==1.8.4
 airavata-python-sdk==1.1.6
 airavata-django-portal-commons==1.0.0

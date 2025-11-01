@@ -5,18 +5,17 @@ import os
 from django.db import models
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
-from wagtail import (
+from wagtail.admin.panels import (
     FieldPanel,
     InlinePanel,
     MultiFieldPanel,
     ObjectList,
     PageChooserPanel,
-    StreamFieldPanel,
     TabbedInterface
 )
+from wagtail.admin.panels import ImageChooserPanel
 from wagtail.fields import RichTextField, StreamField
 from wagtail.models import Orderable, Page
-from wagtail.images.edit_handlers import ImageChooserPanel
 from wagtail.snippets.models import register_snippet
 
 from .blocks import BaseStreamBlock, ContainerChoiceBlock, CssStreamBlock, Nav

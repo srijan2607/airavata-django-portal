@@ -20,8 +20,9 @@ setup(
     long_description=read('README.md'),
     license='Apache License 2.0',
     packages=find_packages(),
+    python_requires='>=3.12',
     install_requires=[
-            'Django',
+            'Django>=4.2,<4.3',
             'djangorestframework',
             'requests',
             'requests-oauthlib',
@@ -46,10 +47,13 @@ setup(
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Framework :: Django',
+        'Framework :: Django :: 4.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application'
     ]

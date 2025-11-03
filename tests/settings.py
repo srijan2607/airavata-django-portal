@@ -27,3 +27,9 @@ PROFILE_SERVICE_PORT = 8962
 PROFILE_SERVICE_SECURE = False
 
 PORTAL_TITLE = 'Django Airavata Gateway'
+
+# Disable webpack loader errors in tests
+WEBPACK_LOADER_IGNORE_ERRORS = True
+for loader_name in WEBPACK_LOADER:
+    WEBPACK_LOADER[loader_name]['IGNORE'] = ['.+\\.hot-update.js', '.+\\.map']
+    WEBPACK_LOADER[loader_name]['TIMEOUT'] = None

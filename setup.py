@@ -29,7 +29,7 @@ setup(
             'thrift',
             'thrift_connector',
             'wagtail',
-            'wagtailfontawesome',
+            'wagtail-font-awesome-svg',
             'jupyter',
             'papermill',
             "airavata-django-portal-sdk",

@@ -1855,7 +1855,6 @@
     "model": "wagtailcore.revision",
     "pk": 1,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T22:33:31.440Z",
       "user": [
         "stephenpaul2727"
@@ -1908,7 +1907,6 @@
     "model": "wagtailcore.revision",
     "pk": 2,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T22:56:39.085Z",
       "user": [
         "stephenpaul2727"
@@ -1961,7 +1959,6 @@
     "model": "wagtailcore.revision",
     "pk": 3,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:48:07.466Z",
       "user": [
         "stephenpaul2727"
@@ -2020,7 +2017,6 @@
     "model": "wagtailcore.revision",
     "pk": 4,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:48:52.346Z",
       "user": [
         "stephenpaul2727"
@@ -2079,7 +2075,6 @@
     "model": "wagtailcore.revision",
     "pk": 5,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:50:34.276Z",
       "user": [
         "stephenpaul2727"
@@ -2138,7 +2133,6 @@
     "model": "wagtailcore.revision",
     "pk": 6,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:51:00.290Z",
       "user": [
         "stephenpaul2727"
@@ -2197,7 +2191,6 @@
     "model": "wagtailcore.revision",
     "pk": 7,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:51:23.337Z",
       "user": [
         "stephenpaul2727"
@@ -2256,7 +2249,6 @@
     "model": "wagtailcore.revision",
     "pk": 8,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:53:58.629Z",
       "user": [
         "stephenpaul2727"
@@ -2321,7 +2313,6 @@
     "model": "wagtailcore.revision",
     "pk": 9,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:55:40.364Z",
       "user": [
         "stephenpaul2727"
@@ -2386,7 +2377,6 @@
     "model": "wagtailcore.revision",
     "pk": 10,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-17T23:59:05.068Z",
       "user": [
         "stephenpaul2727"
@@ -2451,7 +2441,6 @@
     "model": "wagtailcore.revision",
     "pk": 11,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T00:03:57.718Z",
       "user": [
         "stephenpaul2727"
@@ -2516,7 +2505,6 @@
     "model": "wagtailcore.revision",
     "pk": 12,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T00:06:01.406Z",
       "user": [
         "stephenpaul2727"
@@ -2581,7 +2569,6 @@
     "model": "wagtailcore.revision",
     "pk": 13,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T00:06:29.061Z",
       "user": [
         "stephenpaul2727"
@@ -2646,7 +2633,6 @@
     "model": "wagtailcore.revision",
     "pk": 14,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T00:09:16.171Z",
       "user": [
         "stephenpaul2727"
@@ -2711,7 +2697,6 @@
     "model": "wagtailcore.revision",
     "pk": 15,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T16:18:40.783Z",
       "user": [
         "stephenpaul2727"
@@ -2776,7 +2761,6 @@
     "model": "wagtailcore.revision",
     "pk": 16,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:40:08.891Z",
       "user": [
         "stephenpaul2727"
@@ -2847,7 +2831,6 @@
     "model": "wagtailcore.revision",
     "pk": 17,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:41:01.644Z",
       "user": [
         "stephenpaul2727"
@@ -2918,7 +2901,6 @@
     "model": "wagtailcore.revision",
     "pk": 18,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:41:56.407Z",
       "user": [
         "stephenpaul2727"
@@ -2989,7 +2971,6 @@
     "model": "wagtailcore.revision",
     "pk": 19,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:43:30.495Z",
       "user": [
         "stephenpaul2727"
@@ -3060,7 +3041,6 @@
     "model": "wagtailcore.revision",
     "pk": 20,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:44:19.795Z",
       "user": [
         "stephenpaul2727"
@@ -3131,7 +3111,6 @@
     "model": "wagtailcore.revision",
     "pk": 21,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:53:14.287Z",
       "user": [
         "stephenpaul2727"
@@ -3202,7 +3181,6 @@
     "model": "wagtailcore.revision",
     "pk": 22,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:54:26.869Z",
       "user": [
         "stephenpaul2727"
@@ -3273,7 +3251,6 @@
     "model": "wagtailcore.revision",
     "pk": 23,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T18:58:06.722Z",
       "user": [
         "stephenpaul2727"
@@ -3344,7 +3321,6 @@
     "model": "wagtailcore.revision",
     "pk": 24,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:07:23.240Z",
       "user": [
         "stephenpaul2727"
@@ -3421,7 +3397,6 @@
     "model": "wagtailcore.revision",
     "pk": 25,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:09:56.754Z",
       "user": [
         "stephenpaul2727"
@@ -3498,7 +3473,6 @@
     "model": "wagtailcore.revision",
     "pk": 26,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:10:35.596Z",
       "user": [
         "stephenpaul2727"
@@ -3575,7 +3549,6 @@
     "model": "wagtailcore.revision",
     "pk": 27,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:11:13.893Z",
       "user": [
         "stephenpaul2727"
@@ -3652,7 +3625,6 @@
     "model": "wagtailcore.revision",
     "pk": 28,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:12:28.046Z",
       "user": [
         "stephenpaul2727"
@@ -3729,7 +3701,6 @@
     "model": "wagtailcore.revision",
     "pk": 29,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:19:49.036Z",
       "user": [
         "stephenpaul2727"
@@ -3812,7 +3783,6 @@
     "model": "wagtailcore.revision",
     "pk": 30,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:20:42.773Z",
       "user": [
         "stephenpaul2727"
@@ -3895,7 +3865,6 @@
     "model": "wagtailcore.revision",
     "pk": 31,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:21:24.546Z",
       "user": [
         "stephenpaul2727"
@@ -3978,7 +3947,6 @@
     "model": "wagtailcore.revision",
     "pk": 32,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:25:12.314Z",
       "user": [
         "stephenpaul2727"
@@ -4067,7 +4035,6 @@
     "model": "wagtailcore.revision",
     "pk": 33,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:25:43.450Z",
       "user": [
         "stephenpaul2727"
@@ -4156,7 +4123,6 @@
     "model": "wagtailcore.revision",
     "pk": 34,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:30:07.311Z",
       "user": [
         "stephenpaul2727"
@@ -4245,7 +4211,6 @@
     "model": "wagtailcore.revision",
     "pk": 35,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:32:22.422Z",
       "user": [
         "stephenpaul2727"
@@ -4334,7 +4299,6 @@
     "model": "wagtailcore.revision",
     "pk": 36,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:35:09.155Z",
       "user": [
         "stephenpaul2727"
@@ -4423,7 +4387,6 @@
     "model": "wagtailcore.revision",
     "pk": 37,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:36:02.338Z",
       "user": [
         "stephenpaul2727"
@@ -4512,7 +4475,6 @@
     "model": "wagtailcore.revision",
     "pk": 38,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:44:50.955Z",
       "user": [
         "stephenpaul2727"
@@ -4619,7 +4581,6 @@
     "model": "wagtailcore.revision",
     "pk": 39,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:46:11.545Z",
       "user": [
         "stephenpaul2727"
@@ -4726,7 +4687,6 @@
     "model": "wagtailcore.revision",
     "pk": 40,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:47:28.772Z",
       "user": [
         "stephenpaul2727"
@@ -4833,7 +4793,6 @@
     "model": "wagtailcore.revision",
     "pk": 41,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:48:10.541Z",
       "user": [
         "stephenpaul2727"
@@ -4940,7 +4899,6 @@
     "model": "wagtailcore.revision",
     "pk": 42,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:48:39.585Z",
       "user": [
         "stephenpaul2727"
@@ -5047,7 +5005,6 @@
     "model": "wagtailcore.revision",
     "pk": 43,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:49:48.587Z",
       "user": [
         "stephenpaul2727"
@@ -5154,7 +5111,6 @@
     "model": "wagtailcore.revision",
     "pk": 44,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T19:52:59.438Z",
       "user": [
         "stephenpaul2727"
@@ -5261,7 +5217,6 @@
     "model": "wagtailcore.revision",
     "pk": 45,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T20:10:15.067Z",
       "user": [
         "stephenpaul2727"
@@ -5368,7 +5323,6 @@
     "model": "wagtailcore.revision",
     "pk": 46,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T20:14:33.872Z",
       "user": [
         "stephenpaul2727"
@@ -5475,7 +5429,6 @@
     "model": "wagtailcore.revision",
     "pk": 47,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T20:19:47.337Z",
       "user": [
         "stephenpaul2727"
@@ -5582,7 +5535,6 @@
     "model": "wagtailcore.revision",
     "pk": 48,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T20:20:42.850Z",
       "user": [
         "stephenpaul2727"
@@ -5689,7 +5641,6 @@
     "model": "wagtailcore.revision",
     "pk": 51,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T21:07:30.860Z",
       "user": [
         "stephenpaul2727"
@@ -5735,7 +5686,6 @@
     "model": "wagtailcore.revision",
     "pk": 52,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-18T21:08:15.107Z",
       "user": [
         "stephenpaul2727"
@@ -5781,7 +5731,6 @@
     "model": "wagtailcore.revision",
     "pk": 248,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-27T17:56:16.364Z",
       "user": [
         "stephenpaul2727"
@@ -5889,7 +5838,6 @@
     "model": "wagtailcore.revision",
     "pk": 249,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-27T17:56:25.414Z",
       "user": [
         "stephenpaul2727"
@@ -5997,7 +5945,6 @@
     "model": "wagtailcore.revision",
     "pk": 250,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T17:55:25.950Z",
       "user": [
         "akila"
@@ -6051,7 +5998,6 @@
     "model": "wagtailcore.revision",
     "pk": 251,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T18:24:11.142Z",
       "user": [
         "akila"
@@ -6123,7 +6069,6 @@
     "model": "wagtailcore.revision",
     "pk": 252,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T18:25:11.393Z",
       "user": [
         "akila"
@@ -6195,7 +6140,6 @@
     "model": "wagtailcore.revision",
     "pk": 253,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T18:33:25.390Z",
       "user": [
         "akila"
@@ -6267,7 +6211,6 @@
     "model": "wagtailcore.revision",
     "pk": 254,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T18:59:12.265Z",
       "user": [
         "akila"
@@ -6351,7 +6294,6 @@
     "model": "wagtailcore.revision",
     "pk": 255,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T19:18:41.889Z",
       "user": [
         "akila"
@@ -6435,7 +6377,6 @@
     "model": "wagtailcore.revision",
     "pk": 256,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T19:39:36.195Z",
       "user": [
         "akila"
@@ -6519,7 +6460,6 @@
     "model": "wagtailcore.revision",
     "pk": 257,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T20:08:13.697Z",
       "user": [
         "akila"
@@ -6603,7 +6543,6 @@
     "model": "wagtailcore.revision",
     "pk": 258,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T20:25:53.545Z",
       "user": [
         "akila"
@@ -6687,7 +6626,6 @@
     "model": "wagtailcore.revision",
     "pk": 259,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2020-04-26T20:32:11.281Z",
       "user": [
         "akila"

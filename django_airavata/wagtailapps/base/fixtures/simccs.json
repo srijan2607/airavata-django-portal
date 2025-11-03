@@ -367,7 +367,6 @@
     "model": "wagtailcore.revision",
     "pk": 1,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T17:27:25.464Z",
       "user": [
         "stephenpaul2727"
@@ -425,7 +424,6 @@
     "model": "wagtailcore.revision",
     "pk": 2,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T17:36:21.084Z",
       "user": [
         "stephenpaul2727"
@@ -483,7 +481,6 @@
     "model": "wagtailcore.revision",
     "pk": 3,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T17:37:13.676Z",
       "user": [
         "stephenpaul2727"
@@ -541,7 +538,6 @@
     "model": "wagtailcore.revision",
     "pk": 4,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T17:45:11.779Z",
       "user": [
         "stephenpaul2727"
@@ -599,7 +595,6 @@
     "model": "wagtailcore.revision",
     "pk": 5,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:14:33.702Z",
       "user": [
         "stephenpaul2727"
@@ -663,7 +658,6 @@
     "model": "wagtailcore.revision",
     "pk": 6,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:15:31.897Z",
       "user": [
         "stephenpaul2727"
@@ -727,7 +721,6 @@
     "model": "wagtailcore.revision",
     "pk": 7,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:17:38.068Z",
       "user": [
         "stephenpaul2727"
@@ -791,7 +784,6 @@
     "model": "wagtailcore.revision",
     "pk": 8,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:18:05.700Z",
       "user": [
         "stephenpaul2727"
@@ -855,7 +847,6 @@
     "model": "wagtailcore.revision",
     "pk": 9,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:19:53.470Z",
       "user": [
         "stephenpaul2727"
@@ -919,7 +910,6 @@
     "model": "wagtailcore.revision",
     "pk": 10,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:21:45.373Z",
       "user": [
         "stephenpaul2727"
@@ -983,7 +973,6 @@
     "model": "wagtailcore.revision",
     "pk": 11,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:52:33.173Z",
       "user": [
         "stephenpaul2727"
@@ -1047,7 +1036,6 @@
     "model": "wagtailcore.revision",
     "pk": 12,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:55:29.831Z",
       "user": [
         "stephenpaul2727"
@@ -1111,7 +1099,6 @@
     "model": "wagtailcore.revision",
     "pk": 13,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:56:11.998Z",
       "user": [
         "stephenpaul2727"
@@ -1175,7 +1162,6 @@
     "model": "wagtailcore.revision",
     "pk": 14,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:59:03.805Z",
       "user": [
         "stephenpaul2727"
@@ -1257,7 +1243,6 @@
     "model": "wagtailcore.revision",
     "pk": 15,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:59:31.144Z",
       "user": [
         "stephenpaul2727"
@@ -1339,7 +1324,6 @@
     "model": "wagtailcore.revision",
     "pk": 16,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T18:59:48.916Z",
       "user": [
         "stephenpaul2727"
@@ -1421,7 +1405,6 @@
     "model": "wagtailcore.revision",
     "pk": 17,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T19:01:12.199Z",
       "user": [
         "stephenpaul2727"
@@ -1503,7 +1486,6 @@
     "model": "wagtailcore.revision",
     "pk": 18,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T19:06:51.015Z",
       "user": [
         "stephenpaul2727"
@@ -1548,7 +1530,6 @@
     "model": "wagtailcore.revision",
     "pk": 19,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-14T19:07:05.002Z",
       "user": [
         "stephenpaul2727"

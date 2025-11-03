@@ -213,7 +213,6 @@
     "model": "wagtailcore.revision",
     "pk": 1,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:20:26.133Z",
       "user": [
         "stephenpaul2727"
@@ -265,7 +264,6 @@
     "model": "wagtailcore.revision",
     "pk": 2,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:20:50.767Z",
       "user": [
         "stephenpaul2727"
@@ -317,7 +315,6 @@
     "model": "wagtailcore.revision",
     "pk": 3,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:22:05.251Z",
       "user": [
         "stephenpaul2727"
@@ -375,7 +372,6 @@
     "model": "wagtailcore.revision",
     "pk": 4,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:22:26.120Z",
       "user": [
         "stephenpaul2727"
@@ -433,7 +429,6 @@
     "model": "wagtailcore.revision",
     "pk": 5,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:23:39.625Z",
       "user": [
         "stephenpaul2727"
@@ -491,7 +486,6 @@
     "model": "wagtailcore.revision",
     "pk": 6,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:23:56.766Z",
       "user": [
         "stephenpaul2727"
@@ -549,7 +543,6 @@
     "model": "wagtailcore.revision",
     "pk": 7,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:25:44.460Z",
       "user": [
         "stephenpaul2727"
@@ -607,7 +600,6 @@
     "model": "wagtailcore.revision",
     "pk": 8,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T17:26:05.259Z",
       "user": [
         "stephenpaul2727"
@@ -665,7 +657,6 @@
     "model": "wagtailcore.revision",
     "pk": 9,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T18:12:47.386Z",
       "user": [
         "stephenpaul2727"
@@ -723,7 +714,6 @@
     "model": "wagtailcore.revision",
     "pk": 10,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T18:14:59.149Z",
       "user": [
         "stephenpaul2727"
@@ -781,7 +771,6 @@
     "model": "wagtailcore.revision",
     "pk": 11,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T18:16:39.378Z",
       "user": [
         "stephenpaul2727"
@@ -839,7 +828,6 @@
     "model": "wagtailcore.revision",
     "pk": 12,
     "fields": {
-      "submitted_for_moderation": false,
       "created_at": "2018-04-12T18:58:19.715Z",
       "user": [
         "stephenpaul2727"

@@ -67,7 +67,7 @@ INSTALLED_APPS = [
     # wagtail third party dependencies
     'modelcluster',
     'taggit',
-    'wagtailfontawesome',
+    'wagtailfontawesomesvg',
     'wagtail_draftail_anchors',
     'wagtailcodeblock',
 

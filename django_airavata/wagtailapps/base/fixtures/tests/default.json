@@ -1075,6 +1075,7 @@
       "page": 1,
       "permission": [
         "wagtailcore",
+        "page",
         "add_page"
       ]
     }
@@ -1089,6 +1090,7 @@
       "page": 1,
       "permission": [
         "wagtailcore",
+        "page",
         "change_page"
       ]
     }
@@ -1103,6 +1105,7 @@
       "page": 1,
       "permission": [
         "wagtailcore",
+        "page",
         "publish_page"
       ]
     }
@@ -1117,6 +1120,7 @@
       "page": 1,
       "permission": [
         "wagtailcore",
+        "page",
         "add_page"
       ]
     }
@@ -1131,6 +1135,7 @@
       "page": 1,
       "permission": [
         "wagtailcore",
+        "page",
         "change_page"
       ]
     }
@@ -1145,6 +1150,7 @@
       "page": 1,
       "permission": [
         "wagtailcore",
+        "page",
         "lock_page"
       ]
     }

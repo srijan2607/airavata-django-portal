@@ -2230,7 +2230,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 1,
   "fields": {
     "page": 3,
@@ -2244,7 +2244,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 195,
   "fields": {
     "page": 3,
@@ -2258,7 +2258,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 196,
   "fields": {
     "page": 3,
@@ -2272,7 +2272,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 208,
   "fields": {
     "page": 3,
@@ -2286,7 +2286,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 209,
   "fields": {
     "page": 3,
@@ -2300,7 +2300,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 210,
   "fields": {
     "page": 3,
@@ -2314,7 +2314,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 211,
   "fields": {
     "page": 3,
@@ -2328,7 +2328,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 213,
   "fields": {
     "page": 3,
@@ -2342,7 +2342,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 214,
   "fields": {
     "page": 3,
@@ -2356,7 +2356,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 215,
   "fields": {
     "page": 3,
@@ -2370,7 +2370,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 216,
   "fields": {
     "page": 12,
@@ -2384,7 +2384,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 217,
   "fields": {
     "page": 12,
@@ -2398,7 +2398,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 218,
   "fields": {
     "page": 12,
@@ -2412,7 +2412,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 219,
   "fields": {
     "page": 12,
@@ -2426,7 +2426,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 220,
   "fields": {
     "page": 12,
@@ -2440,7 +2440,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 221,
   "fields": {
     "page": 12,
@@ -2454,7 +2454,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 222,
   "fields": {
     "page": 13,
@@ -2468,7 +2468,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 223,
   "fields": {
     "page": 13,
@@ -2482,7 +2482,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 224,
   "fields": {
     "page": 13,
@@ -2496,7 +2496,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 225,
   "fields": {
     "page": 13,
@@ -2510,7 +2510,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 226,
   "fields": {
     "page": 13,
@@ -2524,7 +2524,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 227,
   "fields": {
     "page": 13,
@@ -2538,7 +2538,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 228,
   "fields": {
     "page": 13,
@@ -2552,7 +2552,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 229,
   "fields": {
     "page": 3,
@@ -2566,7 +2566,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 230,
   "fields": {
     "page": 14,
@@ -2580,7 +2580,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 231,
   "fields": {
     "page": 14,
@@ -2594,7 +2594,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 232,
   "fields": {
     "page": 15,
@@ -2608,7 +2608,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 233,
   "fields": {
     "page": 15,
@@ -2622,7 +2622,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 234,
   "fields": {
     "page": 15,
@@ -2636,7 +2636,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 235,
   "fields": {
     "page": 15,
@@ -2650,7 +2650,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 236,
   "fields": {
     "page": 15,
@@ -2664,7 +2664,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 237,
   "fields": {
     "page": 15,
@@ -2678,7 +2678,7 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 238,
   "fields": {
     "page": 15,

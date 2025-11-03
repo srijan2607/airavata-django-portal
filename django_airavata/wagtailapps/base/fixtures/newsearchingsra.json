@@ -6888,7 +6888,10 @@
         "Moderators"
       ],
       "page": 1,
-      "permission_type": "add"
+      "permission": [
+        "wagtailcore",
+        "add_page"
+      ]
     }
   },
   {
@@ -6899,7 +6902,10 @@
         "Moderators"
       ],
       "page": 1,
-      "permission_type": "edit"
+      "permission": [
+        "wagtailcore",
+        "change_page"
+      ]
     }
   },
   {
@@ -6910,7 +6916,10 @@
         "Moderators"
       ],
       "page": 1,
-      "permission_type": "publish"
+      "permission": [
+        "wagtailcore",
+        "publish_page"
+      ]
     }
   },
   {
@@ -6921,7 +6930,10 @@
         "Editors"
       ],
       "page": 1,
-      "permission_type": "add"
+      "permission": [
+        "wagtailcore",
+        "add_page"
+      ]
     }
   },
   {
@@ -6932,7 +6944,10 @@
         "Editors"
       ],
       "page": 1,
-      "permission_type": "edit"
+      "permission": [
+        "wagtailcore",
+        "change_page"
+      ]
     }
   },
   {
@@ -6943,7 +6958,10 @@
         "Moderators"
       ],
       "page": 1,
-      "permission_type": "lock"
+      "permission": [
+        "wagtailcore",
+        "lock_page"
+      ]
     }
   },
   {

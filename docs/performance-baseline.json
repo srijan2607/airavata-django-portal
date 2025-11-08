@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "baseline_date": "2025-11-09",
+    "engineer": "Srijan",
+    "environment": "development",
+    "git_commit": "e50e42d05",
+    "git_tag": "pre-migration-baseline",
+    "note": "Baseline metrics to be measured on properly configured environment",
+    "status": "template_created_pending_actual_measurements"
+  },
+  "runtime_environment": {
+    "python_version": "3.12.4",
+    "django_version": "3.2.18",
+    "wagtail_version": "2.13.4",
+    "database": "SQLite (dev) / PostgreSQL (production)",
+    "os": "Darwin 24.5.0 (macOS)",
+    "cpu": "Apple Silicon / x86_64",
+    "memory_available_gb": "TBD"
+  },
+  "api_performance": {
+    "note": "Measurements to be taken using Apache Bench with commands documented in performance-measurement-guide.md",
+    "/api/projects/": {
+      "requests_total": 1000,
+      "concurrency": 10,
+      "mean_ms": "TBD",
+      "median_ms": "TBD",
+      "p95_ms": "TBD",
+      "p99_ms": "TBD",
+      "requests_per_second": "TBD",
+      "failed_requests": 0,
+      "measurement_command": "ab -n 1000 -c 10 -g performance-projects.tsv http://localhost:8000/api/projects/"
+    },
+    "/api/experiments/": {
+      "requests_total": 1000,
+      "concurrency": 10,
+      "mean_ms": "TBD",
+      "median_ms": "TBD",
+      "p95_ms": "TBD",
+      "p99_ms": "TBD",
+      "requests_per_second": "TBD",
+      "failed_requests": 0,
+      "measurement_command": "ab -n 1000 -c 10 http://localhost:8000/api/experiments/"
+    },
+    "/api/applications/": {
+      "requests_total": 1000,
+      "concurrency": 10,
+      "mean_ms": "TBD",
+      "median_ms": "TBD",
+      "p95_ms": "TBD",
+      "p99_ms": "TBD",
+      "requests_per_second": "TBD",
+      "failed_requests": 0,
+      "measurement_command": "ab -n 1000 -c 10 http://localhost:8000/api/applications/"
+    }
+  },
+  "page_load_performance": {
+    "note": "Measurements using curl timing format and Chrome DevTools",
+    "homepage": {
+      "url": "http://localhost:8000/",
+      "ttfb_ms": "TBD",
+      "dom_content_loaded_ms": "TBD",
+      "full_load_ms": "TBD",
+      "first_paint_ms": "TBD",
+      "lcp_ms": "TBD",
+      "measurement_command": "curl -w \"@curl-format.txt\" -o /dev/null -s http://localhost:8000/"
+    },
+    "workspace_dashboard": {
+      "url": "http://localhost:8000/workspace/dashboard/",
+      "ttfb_ms": "TBD",
+      "dom_content_loaded_ms": "TBD",
+      "full_load_ms": "TBD",
+      "measurement_command": "curl -w \"@curl-format.txt\" -o /dev/null -s http://localhost:8000/workspace/dashboard/"
+    },
+    "experiment_creation": {
+      "url": "http://localhost:8000/workspace/experiments/create/",
+      "ttfb_ms": "TBD",
+      "dom_content_loaded_ms": "TBD",
+      "full_load_ms": "TBD",
+      "measurement_command": "curl -w \"@curl-format.txt\" -o /dev/null -s http://localhost:8000/workspace/experiments/create/"
+    }
+  },
+  "database_performance": {
+    "note": "Query analysis using Django Debug Toolbar and query logging",
+    "top_10_slowest_queries": [
+      {
+        "query": "TBD - Analyze with Debug Toolbar",
+        "execution_time_ms": "TBD",
+        "frequency": "TBD"
+      }
+    ],
+    "average_queries_per_api_request": "TBD",
+    "n_plus_one_issues": "TBD - Detect with Debug Toolbar SQL panel",
+    "measurement_approach": "Enable DEBUG=True, access endpoints with Debug Toolbar, review SQL panel"
+  },
+  "memory_baseline": {
+    "note": "Memory profiling using ps and sustained load testing",
+    "idle_rss_mb": "TBD",
+    "idle_vsz_mb": "TBD",
+    "idle_heap_mb": "TBD",
+    "under_load_rss_mb": "TBD",
+    "under_load_vsz_mb": "TBD",
+    "memory_leak_detected": false,
+    "load_test_duration_seconds": 600,
+    "load_test_command": "ab -n 10000 -c 50 -t 600 http://localhost:8000/",
+    "measurement_command": "ps aux | grep 'python.*manage.py runserver'"
+  },
+  "regression_thresholds": {
+    "api_response_time_max_increase_percent": 10,
+    "page_load_max_increase_percent": 15,
+    "memory_max_increase_percent": 20,
+    "query_count_max_increase_percent": 25,
+    "rationale": {
+      "api": "10% allows for minor performance variations while catching regressions",
+      "page_load": "15% accounts for browser variations and network factors",
+      "memory": "20% accommodates new features and framework overhead",
+      "queries": "25% allows for new features requiring database access"
+    }
+  },
+  "measurement_tools": {
+    "ab_version": "2.3",
+    "curl_version": "TBD - run 'curl --version'",
+    "django_debug_toolbar_version": "3.8.1",
+    "lighthouse_version": "optional - npm install -g lighthouse",
+    "python_version": "3.12.4",
+    "django_version": "3.2.18"
+  },
+  "measurement_prerequisites": {
+    "environment_setup": [
+      "Development server running on localhost:8000",
+      "Database populated with representative test data",
+      "DEBUG=True in settings for query logging",
+      "Django Debug Toolbar installed and configured",
+      "All dependencies installed (currently blocked by grpcio build issue)"
+    ],
+    "test_data_requirements": [
+      "At least 10 projects in database",
+      "At least 50 experiments with various states",
+      "At least 5 applications configured",
+      "Multiple user accounts for concurrent testing",
+      "Realistic file uploads and data products"
+    ],
+    "network_conditions": [
+      "Local network (minimal latency)",
+      "No VPN or proxy interference",
+      "Sufficient bandwidth for concurrent requests"
+    ]
+  },
+  "known_issues": {
+    "dependency_installation": "grpcio 1.48.2/1.51.1 fails to build on Python 3.12 macOS",
+    "workaround": "Measurements should be taken on Python 3.6-3.10 environment OR with updated grpcio version",
+    "impact": "Cannot run development server to capture actual measurements",
+    "resolution_plan": "Document measurement procedures for execution when environment is resolved"
+  }
+}

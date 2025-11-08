@@ -45,6 +45,13 @@ urlpatterns = [
     path('', include(wagtail_urls)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+# Performance baseline measurement: Debug Toolbar URLs
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = [
+        path('__debug__/', include(debug_toolbar.urls)),
+    ] + urlpatterns
+
 handler400 = views.error400
 handler403 = views.error403
 handler404 = views.error404

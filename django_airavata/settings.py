@@ -81,6 +81,10 @@ INSTALLED_APPS = [
     'airavata_django_portal_sdk',
 ]
 
+# Performance baseline measurement tools
+if DEBUG:
+    INSTALLED_APPS += ['debug_toolbar']
+
 # List of app labels for Airavata apps that should be hidden from menus
 # For example: HIDDEN_AIRAVATA_APPS = ['django_airavata_dataparsers']
 HIDDEN_AIRAVATA_APPS = []
@@ -103,6 +107,10 @@ MIDDLEWARE = [
     'wagtail.contrib.redirects.middleware.RedirectMiddleware',
     'django_airavata.apps.auth.middleware.user_profile_completeness_check',
 ]
+
+# Performance baseline measurement tools
+if DEBUG:
+    MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware']
 
 ROOT_URLCONF = 'django_airavata.urls'
 
@@ -410,6 +418,12 @@ LOGGING = {
         'root': {
             'handlers': ['console', 'console_debug'],
             'level': 'WARNING'
+        },
+        # Performance baseline measurement: database query logging
+        'django.db.backends': {
+            'handlers': ['console', 'console_debug'],
+            'level': 'DEBUG' if DEBUG else 'INFO',
+            'propagate': False,
         }
     },
 }
@@ -613,6 +627,12 @@ WAGTAIL_CODE_BLOCK_LANGUAGES = (
     ('zig', 'Zig'),
 )
 
+# Performance baseline measurement: Django Debug Toolbar configuration
+if DEBUG:
+    DEBUG_TOOLBAR_CONFIG = {
+        'SHOW_TOOLBAR_CALLBACK': lambda request: DEBUG,
+        'RESULTS_CACHE_SIZE': 100,
+    }
 
 # Allow all settings to be overridden by settings_local.py file
 try:

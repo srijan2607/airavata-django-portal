@@ -41,7 +41,7 @@ story_location: "{project-root}/docs/stories"
 development_status:
   # Epic 1: Foundation & Migration Infrastructure Setup
   epic-1: contexted
-  1-0-git-configuration-for-human-attributed-commits: review
+  1-0-git-configuration-for-human-attributed-commits: in-progress  # Returned from review - changes requested
   1-1-project-baseline-and-environment-setup: drafted
   1-2-performance-baseline-measurement: drafted
   1-3-test-suite-inventory-and-validation: drafted

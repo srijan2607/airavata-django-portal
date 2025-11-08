@@ -1,0 +1,10 @@
+=== Migration Baseline Versions ===
+Python: 3.12.4
+Django: 3.2.18 (from requirements.txt)
+Wagtail: 2.13.4 (from requirements.txt)
+grpcio: 1.51.1 (from requirements.txt - for python >= 3.7)
+Thrift: 0.16.0 (from requirements.txt)
+djangorestframework: 3.12.4 (from requirements.txt)
+requests: 2.25.1 (from requirements.txt)
+jupyter: 1.0.0 (from requirements.txt)
+papermill: 1.0.1 (from requirements.txt)

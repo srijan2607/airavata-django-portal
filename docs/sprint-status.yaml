@@ -42,8 +42,8 @@ development_status:
   # Epic 1: Foundation & Migration Infrastructure Setup
   epic-1: contexted
   1-0-git-configuration-for-human-attributed-commits: done  # Re-reviewed and approved - gate: PASS_WITH_RECOMMENDATIONS
-  1-1-project-baseline-and-environment-setup: review
-  1-2-performance-baseline-measurement: drafted
+  1-1-project-baseline-and-environment-setup: done  # Reviewed and approved - gate: PASS
+  1-2-performance-baseline-measurement: review
   1-3-test-suite-inventory-and-validation: drafted
   1-4-rollback-procedure-creation-and-testing: drafted
   1-5-database-backup-and-restore-validation: drafted
